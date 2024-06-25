@@ -12,7 +12,7 @@ To use the models in this repository, you'll need the following:
 
 ## 1. :floppy_disk: Fine-Tuned Models
 
-### 1.1. [Mistral-7B-Geoscience](#8.1-Mistral-7B-Geoscience)
+### 1.1. [Mistral-7B-Geoscience](###Mistral-7B-Geoscience)
 ### 1.2 :factory_worker: Future models~~~~~~~~~
 
 
@@ -79,7 +79,7 @@ You can go to [my website](https://jcjunxing.github.io/) to learn more about mys
 ----
 
 ## 8. Model Detail
-## 8.1 Mistral-7B-Geoscience
+### Mistral-7B-Geoscience
 - **Base Model**: Mistral-7B (LLM)
 - **Training Data**: :rock: Nature Geoscience paper text (~30K samples)
 - **Hugging Face Model**: [Link to the model on Hugging Face]
