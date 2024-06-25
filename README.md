@@ -1,4 +1,4 @@
-# Fine-tuned Language Models Repository
+# JC'S Fine-tuned Language Models Repository
 
 This repository hosts a collection of fine-tuned language models based on various base architectures. Our goal is to provide specialized models for different domains and applications.
 
