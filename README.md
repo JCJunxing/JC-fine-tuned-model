@@ -12,7 +12,7 @@ To use the models in this repository, you'll need the following:
 
 ## 1. :floppy_disk: Fine-Tuned Models
 
-### 1.1. [Mistral-7B-Geoscience](###Mistral-7B-Geoscience)
+### 1.1. [Mistral-7B-Geoscience](#Mistral-7B-Geoscience)
 ### 1.2 :factory_worker: Future models~~~~~~~~~
 
 
