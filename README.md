@@ -20,12 +20,12 @@ To use the models in this repository, you'll need the following:
 - **Description**: This model is fine-tuned on content from Nature Geoscience papers, enhancing its performance in geoscience-related tasks.
 - **Performance**:
   *Question*: How to measure Hg concentration in a rock sample?
+  *Answer*:
+  `GPT-4`: "To measure Hg concentration in a rock sample, one typically uses instrumental methods like atomic absorption spectrometry (AAS) or inductively coupled plasma mass spectrometry (ICP-MS)....."
   
-  *Answer (GPT-4)*: "To measure Hg concentration in a rock sample, one typically uses instrumental methods like atomic absorption spectrometry (AAS) or inductively coupled plasma mass spectrometry (ICP-MS)....."
+  `Pre-trained Mistral-7B`: "The mercury content of the samples is determined by atomic absorption spectrophotometry. The method involves dissolving 1 gm of the powdered sample in concentrated nitric acid and then adding an excess amount of potassium iodide solution (KI). This forms a complex with mercury, which can be measured at 253.7 nm wavelength using a flame atomizer....."
   
-  *Answer (Pre-trained Mistral-7B)*: "The mercury content of the samples is determined by atomic absorption spectrophotometry. The method involves dissolving 1 gm of the powdered sample in concentrated nitric acid and then adding an excess amount of potassium iodide solution (KI). This forms a complex with mercury, which can be measured at 253.7 nm wavelength using a flame atomizer....."
-  
-  *Answer (Mistral-7B-Geoscience)*: "The analytical method used for the determination of Hg concentrations is based on cold vapor atomic fluorescence spectrometry (CVAFS). The CVAFS technique has been widely applied and validated as an accurate and precise method for measuring trace amounts of mercury in environmental samples."
+  `Mistral-7B-Geoscience`: "The analytical method used for the determination of Hg concentrations is based on cold vapor atomic fluorescence spectrometry (CVAFS). The CVAFS technique has been widely applied and validated as an accurate and precise method for measuring trace amounts of mercury in environmental samples."
 
 [Space for future models]
 
