@@ -78,6 +78,7 @@ You can go to [my website](https://jcjunxing.github.io/) to learn more about mys
 ----
 ----
 
+## 8. Model Detail
 ## 8.1 Mistral-7B-Geoscience
 - **Base Model**: Mistral-7B (LLM)
 - **Training Data**: :rock: Nature Geoscience paper text (~30K samples)
