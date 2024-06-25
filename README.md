@@ -13,7 +13,8 @@ To use the models in this repository, you'll need the following:
 ## 1. :floppy_disk: Fine-Tuned Models
 
 ### 1.1. [Mistral-7B-Geoscience](#Mistral-7B-Geoscience)
-### 1.2 :factory_worker: Future models~~~~~~~~~
+### 1.1. [Mistral-7B-Logging-Perforation](#Mistral-7B-Loggin-Perforation)
+### 1.3. :factory_worker: Future models~~~~~~~~~
 
 
 
@@ -25,7 +26,7 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 from peft import PeftModel
 
-base_model_id = "[PRE-TRAINED MODELS]"
+base_model_id = "[PRE-TRAINED MODELS NAME]"
 bnb_config = BitsAndBytesConfig(
     load_in_4bit=True,
     bnb_4bit_use_double_quant=True,
@@ -79,7 +80,7 @@ You can go to [my website](https://jcjunxing.github.io/) to learn more about mys
 ----
 
 ## 8. Model Detail
-### Mistral-7B-Geoscience
+### Mistral-7B-Geoscience-v0.1
 - **Base Model**: Mistral-7B (LLM)
 - **Training Data**: :rock: Nature Geoscience paper text (~30K samples)
 - **Hugging Face Model**: [Link to the model on Hugging Face]
@@ -100,5 +101,45 @@ Load Data & Base Model :arrow_right: Tokenize :arrow_right: Padding :arrow_right
   
   `Pre-trained Mistral-7B`: "The mercury content of the samples is determined by atomic absorption spectrophotometry. The method involves dissolving 1 gm of the powdered sample in concentrated nitric acid and then adding an excess amount of potassium iodide solution (KI). This forms a complex with mercury, which can be measured at 253.7 nm wavelength using a flame atomizer....."
   
-  `Mistral-7B-Geoscience`: "The analytical method used for the determination of Hg concentrations is based on cold vapor atomic fluorescence spectrometry (CVAFS). The CVAFS technique has been widely applied and validated as an accurate and precise method for measuring trace amounts of mercury in environmental samples."
+  `Mistral-7B-Geoscience-v0.1`: "The analytical method used for the determination of Hg concentrations is based on cold vapor atomic fluorescence spectrometry (CVAFS). The CVAFS technique has been widely applied and validated as an accurate and precise method for measuring trace amounts of mercury in environmental samples."
+
+----
+
+### Mistral-7B-Logging-Perforation-v0.1
+Base Model: Mistral-7B (LLM)
+Training Data: :rock: SPE Journal abstract which focusing on Logging and Perforation  (~3K samples)
+Hugging Face Model: [Link to the model on Hugging Face]
+Description: This model is fine-tuned on content from the content in Petrolumn Engnieer journal, enhancing its performance in logging and perforation tasks related.
+Fine-tuning Process:
+Load Data & Base Model :arrow_right: Tokenize :arrow_right: Padding :arrow_right: Set up Lora in Model :arrow_right: Train :arrow_right: Evaluate
+
+Performance:
+
+Question:
+
+Name 3 new technologies in Logging and Perforation
+
+Answer:
+
+`GPT-4`: "
+Here are three succinct new technologies in logging and perforation:
+
+1. Advanced Logging Sensors: Incorporating spectral logging and high-definition imaging for detailed analysis.
+
+2. Real-time Data Transmission: Digital tools transmit data instantly for immediate analysis.
+
+3.Engineered Perforating Systems: Utilizing shaped charge and precision systems for optimal wellbore perforation."
+
+`Pre-trained Mistral-7B`: "
+1. Electronic logging devices (ELDs) are electronic systems that record a driver's hours of service (HOS) information, including the date, time, location, engine hours, vehicle miles driven, and other data. ELDs help ensure compliance with HOS regulations by automatically recording driving time and preventing drivers from falsifying their logs.
+2. Perforating guns are specialized tools used to create perforations in wellbores during drilling operations. These guns use high-pressure water or air jets to create small holes in the rock formation, allowing for the injection of fluids such as cement or drilling mud into the formation.
+3. Smart perforators are advanced perforating tools that can be remotely controlled and monitored using telemetry technology. They allow operators to adjust the firing sequence and depth of penetration in real-time, improving accuracy and reducing the risk of damage to the wellbore.
+"
+
+`Mistral-7B-Geoscience-v0.1`: " The three new technologies are:
+1. Distributed fiber-optic sensing (DFOS) technology for real-time monitoring of wellbore conditions during hydraulic fracturing operations. This technology uses optical fibers embedded in the wellbore to measure temperature, pressure, strain, and other parameters that can provide insights into the behavior of the rock formation and the effectiveness of the hydraulic fracturing process.
+2. High-pressure perforating technology for creating larger and more uniform perforations in hard formations. This technology involves using high-pressure nitrogen or carbon dioxide gas to create larger perforations with less damage to the surrounding rock.
+3. Smart completion systems for optimizing hydraulic fracturing treatments. These systems use sensors and actuators to monitor and control the flow of fluids and proppants into the wellbore during hydraulic fracturing. They allow for real-time adjustments to be made to the treatment based on downhole measurements, resulting in more efficient and effective fracturing treatments.
+"
+
 ----
