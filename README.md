@@ -18,6 +18,10 @@ To use the models in this repository, you'll need the following:
 - **Training Data**: Nature Geoscience paper text (~30K samples)
 - **Hugging Face Model**: [Link to the model on Hugging Face]
 - **Description**: This model is fine-tuned on content from Nature Geoscience papers, enhancing its performance in geoscience-related tasks.
+- ## 2. :running: Fine-tuning Process
+
+1.Load Data & Base Model      2.Tokenize      3.Padding      4.Set up Lora in Model      5.Train      6.Evaluate
+
 - **Performance**:
   
   *Question*:
@@ -34,14 +38,7 @@ To use the models in this repository, you'll need the following:
 
 ### 1.2 :factory_worker: Future models~~~~~~~~~
 
-## 2. :running: Fine-tuning Process
 
-- **Load Data & Base Model**
-- **Tokenize**
-- **Padding**
-- **Set up Lora in Model**
-- **Train**
-- **Evaluate**
 
 ## 3. Usage
 Here's a basic python code of how to use the the fine-tuned LLM model:
