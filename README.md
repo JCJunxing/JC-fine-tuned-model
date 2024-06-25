@@ -19,7 +19,10 @@ To use the models in this repository, you'll need the following:
 - **Hugging Face Model**: [Link to the model on Hugging Face]
 - **Description**: This model is fine-tuned on content from Nature Geoscience papers, enhancing its performance in geoscience-related tasks.
 - **Performance**:
-  *Question*: How to measure Hg concentration in a rock sample?
+  
+  *Question*:
+
+  How to measure Hg concentration in a rock sample?
   
   *Answer*:
   
