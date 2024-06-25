@@ -12,8 +12,8 @@ To use the models in this repository, you'll need the following:
 
 ## 1. :floppy_disk: Fine-Tuned Models
 
-### 1.1. [Mistral-7B-Geoscience](#Mistral-7B-Geoscience-v0.1)
-### 1.2. [Mistral-7B-Logging-Perforation](#Mistral-7B-Loggin-Perforation-v0.1)
+### 1.1. [Mistral-7B-Geoscience-v0.1](#Mistral-7B-Geoscience-v01)
+### 1.2. [Mistral-7B-Logging-Perforation-v0.1](#Mistral-7B-Loggin-Perforation-v01)
 ### 1.3. :factory_worker: Future models~~~~~~~~~
 
 
