@@ -106,14 +106,15 @@ Load Data & Base Model :arrow_right: Tokenize :arrow_right: Padding :arrow_right
 ----
 
 ### Mistral 7B Logging Perforation v0.1
-Base Model: Mistral-7B (LLM)
-Training Data: : :oil_drum: SPE Journal abstract which focusing on Logging and Perforation  (~3K samples)
-Hugging Face Model: [Link to the model on Hugging Face]
-Description: This model is fine-tuned on content from the content in Petrolumn Engnieer journal, enhancing its performance in logging and perforation tasks related.
-Fine-tuning Process:
+
+- **Base Model**: Mistral-7B (LLM)
+- **Training Data**: : :oil_drum: SPE Journal abstract which focusing on Logging and Perforation  (~3K samples)
+- **Hugging Face Model**: [Link to the model on Hugging Face]
+- **Description**: This model is fine-tuned on content from the content in Petrolumn Engnieer journal, enhancing its performance in logging and perforation tasks related.
+- **Fine-tuning Process**:
 Load Data & Base Model :arrow_right: Tokenize :arrow_right: Padding :arrow_right: Set up Lora in Model :arrow_right: Train :arrow_right: Evaluate
 
-Performance:
+- **Performance:
 
 Question:
 
