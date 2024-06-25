@@ -13,7 +13,7 @@ To use the models in this repository, you'll need the following:
 ## 1. :floppy_disk: Fine-Tuned Models
 
 ### 1.1. [Mistral-7B-Geoscience-v0.1](#Mistral-7B-Geoscience-v01)
-### 1.2. [Mistral-7B-Logging-Perforation-v0.1](#Mistral-7B-Loggin-Perforation-v01)
+### 1.2. [Mistral-7B-Logging-Perforation-v0.1](#Mistral-7B-Logging-Perforation-v01)
 ### 1.3. :factory_worker: Future models~~~~~~~~~
 
 
@@ -105,9 +105,9 @@ Load Data & Base Model :arrow_right: Tokenize :arrow_right: Padding :arrow_right
 
 ----
 
-### Mistral-7B-Logging-Perforation-v0.1
+### Mistral 7B Logging Perforation v0.1
 Base Model: Mistral-7B (LLM)
-Training Data: :rock: SPE Journal abstract which focusing on Logging and Perforation  (~3K samples)
+Training Data: : :oil_drum: SPE Journal abstract which focusing on Logging and Perforation  (~3K samples)
 Hugging Face Model: [Link to the model on Hugging Face]
 Description: This model is fine-tuned on content from the content in Petrolumn Engnieer journal, enhancing its performance in logging and perforation tasks related.
 Fine-tuning Process:
