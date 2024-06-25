@@ -27,7 +27,7 @@ To use the models in this repository, you'll need the following:
   
   `Mistral-7B-Geoscience`: "The analytical method used for the determination of Hg concentrations is based on cold vapor atomic fluorescence spectrometry (CVAFS). The CVAFS technique has been widely applied and validated as an accurate and precise method for measuring trace amounts of mercury in environmental samples."
 
-### 1.2
+### 1.2 :factory_worker: Future models~~~~~~~~~
 
 ## 2. :running: Fine-tuning Process
 
@@ -73,14 +73,14 @@ We plan to expand this repository with more fine-tuned models across various dom
 
 | Domain/Application                   | Description                                                                 |
 |--------------------------------------|-----------------------------------------------------------------------------|
-| :hospital:Healthcare                            | Predictive models for disease diagnosis and treatment outcomes               |
-| :coin:Finance                               | Risk assessment, fraud detection, stock market prediction                   |
+| :hospital: Healthcare                            | Predictive models for disease diagnosis and treatment outcomes               |
+| :coin: Finance                               | Risk assessment, fraud detection, stock market prediction                   |
 | 	:vertical_traffic_light:Transportation                       | Autonomous vehicles, traffic flow optimization                              |
-| :shopping:Retail                                | Customer behavior analysis, demand forecasting                              |
-| :book:Education                             | Adaptive learning systems, student performance prediction                   |
-| :electron:Energy                                | Renewable energy optimization, smart grid management                        |
-| :factory:Manufacturing                        | Predictive maintenance, quality control                                    |
-| :bread:Agriculture                           | Crop yield prediction, pest management                                     |
+| :shopping: Retail                                | Customer behavior analysis, demand forecasting                              |
+| :book: Education                             | Adaptive learning systems, student performance prediction                   |
+| :electron: Energy                                | Renewable energy optimization, smart grid management                        |
+| :factory: Manufacturing                        | Predictive maintenance, quality control                                    |
+| :bread: Agriculture                           | Crop yield prediction, pest management                                     |
 
 
 ## 5. Stay tuned for updates!
