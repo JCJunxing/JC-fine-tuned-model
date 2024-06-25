@@ -86,12 +86,7 @@ You can go to [my website](https://jcjunxing.github.io/) to learn more about mys
 - **Description**: This model is fine-tuned on content from Nature Geoscience papers, enhancing its performance in geoscience-related tasks.
 - **running: Fine-tuning Process**:
 
-1. Load Data & Base Model
-2. Tokenize
-3. Padding
-4. Set up Lora in Model
-5. Train
-6. Evaluate
+Load Data & Base Model :arrow_right: Tokenize :arrow_right: Padding :arrow_right: Set up Lora in Model :arrow_right: Train :arrow_right: Evaluate
 
 - **Performance**:
   
